@@ -21,9 +21,6 @@ echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo 'Config Test'
 sudo ./apache-tomcat-8.0.32/bin/configtest.sh
 echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-echo 'Start Service'
-sudo ./apache-tomcat-8.0.32/bin/startup.sh
-echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 
 echo 'Add these to ~/.bashrc'
 echo 'export CATALINA_HOME=~/apache-tomcat-8.0.32'
