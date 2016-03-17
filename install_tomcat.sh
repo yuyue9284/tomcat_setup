@@ -11,12 +11,8 @@ echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo 'Change Permission'
 sudo chmod +x ~/apache-tomcat-8.0.32/bin/*
 echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-echo 'Install jdk'
-sudo apt-get install openjdk-7-jdk
-echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo 'Set Path'
 export CATALINA_HOME=~/apache-tomcat-8.0.32
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 echo 'Config Test'
 sudo ./apache-tomcat-8.0.32/bin/configtest.sh
@@ -24,4 +20,3 @@ echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 
 echo 'Add these to ~/.bashrc'
 echo 'export CATALINA_HOME=~/apache-tomcat-8.0.32'
-echo 'export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64'
